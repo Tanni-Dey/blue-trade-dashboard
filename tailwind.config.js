@@ -3,22 +3,25 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+    },
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
       {
-        mytheme: {
-          primary: "#570df8",
+        lightTheme: {
+          primary: "#0060FF",
 
-          secondary: "#f000b8",
+          secondary: "#000000",
 
-          accent: "#1dcdbc",
+          accent: "#F0F8FF",
 
-          neutral: "#2b3440",
+          neutral: "#D5E6FB",
 
-          "base-100": "#ffffff",
+          base: "#F0F8FF",
 
           info: "#3abff8",
 
